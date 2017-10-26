@@ -31,9 +31,6 @@ int main(int argc, char *argv[])
     cout << "* Create Object base" << endl;
     Base base;
 
-    cout << "* Create Object child" << endl;
-    Child child;
-
     cout << "mmmmeeeeooooww" << endl;
     Function(base);
 
