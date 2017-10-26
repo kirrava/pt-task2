@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
     cout << "* Call method func() for object base" << endl;
     Function(base);
 
-    cout << "* Call method func() for object child" << endl;
+    cout << " meow in v0.1" << endl;
     Function(child);
 
     return 0;
