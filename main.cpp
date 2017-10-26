@@ -14,7 +14,7 @@ public:
 class Child: public Base
 {
 public:
-    Child() { cout << "Construct Child object\n"; }
+    Child() { cout << "cats"; }
     ~Child() { cout << "Destruct Child object\n"; }
 
     void func() const { cout << "Function func() of class Child\n"; }
