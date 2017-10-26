@@ -22,7 +22,7 @@ public:
 
 void Function(const Base &obj)
 {
-    cout << "* Call method func() for object obj" << endl;
+    cout << "meow" << endl;
     obj.func();
 }
 
