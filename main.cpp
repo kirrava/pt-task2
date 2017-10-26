@@ -5,7 +5,7 @@ using namespace std;
 class Base
 {
 public:
-    Base() { cout << "Construct Base object\n"; }
+    Base() { cout << "catttttttttttttt\n"; }
     ~Base() { cout << "Destruct Base object\n"; }
 
     virtual void func() const { cout << "Function func() of class Base\n"; }
