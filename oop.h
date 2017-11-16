@@ -1,7 +1,5 @@
-#include <iostream>
-
-using namespace std;
-
+#ifndef oop_h
+#defline oop_h
 class Base
 {
 public:
@@ -25,20 +23,4 @@ void Function(const Base &obj)
     cout << "meow" << endl;
     obj.func();
 }
-
-int main(int argc, char *argv[])
-{
-    cout << "* Create Object base" << endl;
-    Base base;
-
-    cout << "* Create Object child" << endl;
-    Child child;
-
-    cout << "* Call meow method func() for object base" << endl;
-    Function(base);
-
-    cout << " meow in v0.1" << endl;
-    Function(child);
-
-    return 0;
-}
+#endif
